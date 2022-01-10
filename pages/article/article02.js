@@ -243,20 +243,3 @@ const article02 = () => {
 };
 
 export default article02;
-
-{
-  /* <div class="v hc">
-<div class="u x">
-  <div
-    class="ld zc pb wj fk hk"
-    style="background: linear-gradient(90deg, #44ff9a -0.55%, #44b0ff 22.86%, #8b44ff 48.36%, #ff6644 73.33%, #ebff70 99.34%)"
-  ></div>
-</div>
-
-<img
-  class="v cg"
-  src="https://cdn.rareblocks.xyz/collection/clarity/images/long-form/1/img-blog.png"
-  alt=""
-/>
-</div> */
-}
