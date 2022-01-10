@@ -233,7 +233,7 @@ const article02 = () => {
             </p>
             <p className="mt-6 leading-7">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias
-              similique sapiente
+              similique
             </p>
           </div>
         </div>
