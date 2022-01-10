@@ -1,12 +1,12 @@
 const Article01 = () => {
   return (
-    <section className="bg-neutral-900 py-20">
+    <section className="bg-neutral-900 lg:py-20 sm:py-16 py-12">
       <div className="max-w-7xl mx-auto lg:px-8 sm:px-6 px-4">
         <p className="text-gray-400 text-sm">Jan 10, 2022</p>
         <h1 className="text-neutral-100 mt-5 xl:text-5xl xl:max-w-5xl font-bold tracking-wider sm:text-4xl text-3xl max-w-4xl">
           How to create a succesful website using Frus UI Kit.
         </h1>
-        <div className="grid lg:grid-cols-12 gap-y-20 gap-x-10 lg:mt-24 grid-cols-1 mt-10 ">
+        <div className="grid lg:grid-cols-12 gap-y-10 lg:gap-x-20 lg:mt-24 grid-cols-1 mt-10 ">
           <div className="lg:col-span-5">
             <div className="rounded-2xl overflow-hidden lg:max-h-full max-h-96 lg:h-full">
               <img
