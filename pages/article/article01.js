@@ -10,7 +10,7 @@ const Article01 = () => {
           <div className="lg:col-span-5">
             <div className="rounded-2xl overflow-hidden lg:max-h-full max-h-96 lg:h-full">
               <img
-                src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+                src="https://images.unsplash.com/photo-1521898284481-a5ec348cb555?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80"
                 alt=""
                 className="object-cover lg:h-full max-w-full w-full h-auto object-bottom"
               />
