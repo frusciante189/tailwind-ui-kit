@@ -1,5 +1,3 @@
-import React from "react";
-
 const blog01 = () => {
   return (
     <section className="bg-stone-50 lg:py-20 sm:py-16 py-12">
