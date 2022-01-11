@@ -32,11 +32,11 @@ const blog02 = () => {
               </span>
             </div>
             <div className="xl:p-12 sm:p-8 px-6 py-5 relative">
-              <div className="rounded-2xl overflow-hidden aspect-[16/8]">
+              <div className="rounded-2xl overflow-hidden aspect-[16/8] group">
                 <img
                   src="https://images.unsplash.com/photo-1500989145603-8e7ef71d639e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80"
                   alt=""
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover group-hover:-scale-150"
                 />
               </div>
               <p className="font-semibold text-xl mt-7 tracking-tight">
