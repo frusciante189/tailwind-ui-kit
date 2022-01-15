@@ -6,7 +6,7 @@ const blog04 = () => {
       <div className="max-w-7xl mx-auto lg:px-8 sm:px-6 px-4">
         <div className="sm:text-center text-left max-w-lg mx-auto">
           <h2 className="font-bold sm:text-4xl text-3xl text-slate-800">
-            We release interesting articles about technology
+            We release interesting articles about life
           </h2>
         </div>
         <div className="sm:mt-12 mt-8">
@@ -171,12 +171,12 @@ const blog04 = () => {
                   <img
                     src="https://images.unsplash.com/photo-1621057621209-baf1644dc82c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
                     alt=""
-                    className="w-full h-full object-cover group-hover:scale-125 transition-all transform duration-300 group-hover:rotate-12"
+                    className="w-full h-full object-cover group-hover:scale-125 transition-all transform duration-300 group-hover:rotate-6"
                   />
                 </div>
                 <div className="sm:ml-10 sm:mt-0 mt-8">
                   <p className="font-medium text-slate-800 text-xl">
-                    The unseen of spending three years at Pixelgrade
+                    How to incorporate elements of nature in your designs
                   </p>
                   <p className="text-sm text-slate-600 mt-5">
                     January 11, 2022
@@ -188,12 +188,12 @@ const blog04 = () => {
                   <img
                     src="https://images.unsplash.com/photo-1616627974469-aeadf7890ed4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1083&q=80"
                     alt=""
-                    className="w-full h-full object-cover group-hover:scale-125 transition-all transform duration-300 group-hover:rotate-12"
+                    className="w-full h-full object-cover group-hover:scale-125 transition-all transform duration-300 group-hover:rotate-6"
                   />
                 </div>
                 <div className="sm:ml-10 sm:mt-0 mt-8">
                   <p className="font-medium text-slate-800 text-xl">
-                    How does writing influence your personal brand?
+                    How to cope with rejection and turn it into a positive
                   </p>
                   <p className="text-sm text-slate-600 mt-5">
                     January 11, 2022
@@ -205,12 +205,12 @@ const blog04 = () => {
                   <img
                     src="https://images.unsplash.com/photo-1486427944299-d1955d23e34d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
                     alt=""
-                    className="w-full h-full object-cover group-hover:scale-125 transition-all transform duration-300 group-hover:rotate-12"
+                    className="w-full h-full object-cover group-hover:scale-125 transition-all transform duration-300 group-hover:rotate-6"
                   />
                 </div>
                 <div className="sm:ml-10 sm:mt-0 mt-8">
                   <p className="font-medium text-slate-800 text-xl">
-                    Why choose a theme that looks good with WooCommerce
+                    How to avoid feeling lonely in an age of remote working
                   </p>
                   <p className="text-sm text-slate-600 mt-5">
                     January 11, 2022
