@@ -6,10 +6,10 @@ const blog07 = () => {
       <div className="max-w-7xl mx-auto lg:px-8 sm:px-6 px-4">
         <div className="flex justify-between items-end">
           <div className="flex-1 sm:text-left text-center">
-            <h2 className="lg:text-5xl sm:text-4xl text-3xl leading-5 font-bold text-slate-800">
+            <h2 className="lg:text-5xl sm:text-4xl text-3xl lg:text-left text-center leading-5 font-bold text-slate-800">
               Latest from blog
             </h2>
-            <p className="max-w-xl lg:mx-0 mx-auto mt-4 leading-relaxed">
+            <p className="max-w-xl lg:mx-0 mx-auto mt-4 leading-relaxed lg:text-left text-center">
               Amet minim mollit non deserunt ullamco est sit aliqua dolor do
               amet sint. Velit officia consequat duis.
             </p>
