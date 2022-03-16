@@ -1,0 +1,376 @@
+<section class="ne qh zj he">
+  <div class="oe fb rh ak tc">
+    <div class="dj rj">
+      <div class="ij">
+        <h2 class="zf bg">
+          <span class="if lf sf xh ki"> Frequently Asked </span>
+          <span class="wb jf mf vf yh li"> Questions </span>
+        </h2>
+      </div>
+
+      <div class="jb ij wi">
+        <p class="if nf eg bg">
+          Nunc aenean risus nam risus neque lacus quis aliquam. Pulvinar
+          dignissim id sem habitant. Mi, sed proin non venenatis nam.
+        </p>
+        <div class="jb">
+          <a
+            href="#"
+            title=""
+            class="yb jd ld ve ue if of tf jg lg ge de be bi bg mg qg rg tg og wh"
+            role="button"
+          >
+            Learn More
+            <svg
+              class="lc dc lb"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M13 7l5 5m0 0l-5 5m5-5H6"
+              ></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="qb aj">
+      <div x-data="{ active: 1 }" class="td">
+        <div class="w">
+          <div
+            x-data="{
+                                        id: 1,
+                                        get expanded() {
+                                            return this.active === this.id
+                                        },
+                                        set expanded(value) {
+                                            this.active = value ? this.id : null
+                                        },
+                                    }"
+            role="region"
+          >
+            <h3>
+              <button
+                @click="expanded = !expanded"
+                :aria-expanded="expanded"
+                class="xb jd kc jf kf tf gf ik bg"
+                aria-expanded="true"
+              >
+                <span x-show="expanded" aria-hidden="true" class="vb">
+                  <svg
+                    class="lc dc bg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M8.1207 9.29006L12.0007 13.1701L15.8807 9.29006C16.2707 8.90006 16.9007 8.90006 17.2907 9.29006C17.6807 9.68006 17.6807 10.3101 17.2907 10.7001L12.7007 15.2901C12.3107 15.6801 11.6807 15.6801 11.2907 15.2901L6.7007 10.7001C6.3107 10.3101 6.3107 9.68006 6.7007 9.29006C7.0907 8.91006 7.7307 8.90006 8.1207 9.29006Z"
+                    ></path>
+                  </svg>
+                </span>
+
+                <span
+                  x-show="!expanded"
+                  aria-hidden="true"
+                  class="vb"
+                  style="display: none"
+                >
+                  <svg
+                    class="lc dc bg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M9.71141 17.3C10.1014 17.69 10.7314 17.69 11.1214 17.3L15.7114 12.71C16.1014 12.32 16.1014 11.69 15.7114 11.3L11.1214 6.71003C10.7314 6.32003 10.1014 6.32003 9.71141 6.71003C9.32141 7.10003 9.32141 7.73003 9.71141 8.12003L13.5914 12.01L9.71141 15.89C9.32141 16.28 9.33141 16.92 9.71141 17.3Z"
+                    ></path>
+                  </svg>
+                </span>
+
+                <span>
+                  Cras quis nulla commodo, aliquam lectus sed, blandit augue?
+                </span>
+              </button>
+            </h3>
+
+            <div x-show="expanded" x-collapse="">
+              <div class="ib if nf sf eg bg">
+                Nam ultricies leo cursus gravida lacus. Aliquet eget quam nisi
+                duis dui justo eleifend. Suspendisse odio id ultrices elementum
+                ut eget ullamcorper. Vel eu odio mattis amet, ornare fermentum.
+                Fermentum at curabitur ultricies eget tortor in quis condimentum
+                leo. Maecenas dictum felis, massa quam tellus. Fermentum
+                tincidunt eu vitae nulla amet. Nec auctor lorem dictum
+                consequat. Iaculis a luctus facilisis viverra pulvinar diam.
+                Porttitor nisl pretium morbi id. Amet quis a quam ipsum eu
+                faucibus aliquet aliquet. Lacus, ultricies vel, ut quis
+                imperdiet integer pharetra. Diam accumsan, tincidunt quis eu
+                nibh ultrices. Habitant id ultricies volutpat mauris neque,
+                gravida semper. Aenean blandit vitae, felis sapien.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          x-data="{
+                                        id: 2,
+                                        get expanded() {
+                                            return this.active === this.id
+                                        },
+                                        set expanded(value) {
+                                            this.active = value ? this.id : null
+                                        },
+                                    }"
+          role="region"
+        >
+          <h3>
+            <button
+              @click="expanded = !expanded"
+              :aria-expanded="expanded"
+              class="xb jd kc jf kf tf gf ik bg"
+              aria-expanded="false"
+            >
+              <span
+                x-show="expanded"
+                aria-hidden="true"
+                class="vb"
+                style="display: none"
+              >
+                <svg
+                  class="lc dc bg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M8.1207 9.29006L12.0007 13.1701L15.8807 9.29006C16.2707 8.90006 16.9007 8.90006 17.2907 9.29006C17.6807 9.68006 17.6807 10.3101 17.2907 10.7001L12.7007 15.2901C12.3107 15.6801 11.6807 15.6801 11.2907 15.2901L6.7007 10.7001C6.3107 10.3101 6.3107 9.68006 6.7007 9.29006C7.0907 8.91006 7.7307 8.90006 8.1207 9.29006Z"
+                  ></path>
+                </svg>
+              </span>
+
+              <span x-show="!expanded" aria-hidden="true" class="vb">
+                <svg
+                  class="lc dc bg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M9.71141 17.3C10.1014 17.69 10.7314 17.69 11.1214 17.3L15.7114 12.71C16.1014 12.32 16.1014 11.69 15.7114 11.3L11.1214 6.71003C10.7314 6.32003 10.1014 6.32003 9.71141 6.71003C9.32141 7.10003 9.32141 7.73003 9.71141 8.12003L13.5914 12.01L9.71141 15.89C9.32141 16.28 9.33141 16.92 9.71141 17.3Z"
+                  ></path>
+                </svg>
+              </span>
+
+              <span>
+                Cras quis nulla commodo, aliquam lectus sed, blandit augue?
+              </span>
+            </button>
+          </h3>
+
+          <div
+            x-show="expanded"
+            x-collapse=""
+            style="display: none; height: 0px; overflow: hidden"
+            hidden=""
+          >
+            <div class="ib if nf sf eg bg">
+              Nam ultricies leo cursus gravida lacus. Aliquet eget quam nisi
+              duis dui justo eleifend. Suspendisse odio id ultrices elementum ut
+              eget ullamcorper. Vel eu odio mattis amet, ornare fermentum.
+              Fermentum at curabitur ultricies eget tortor in quis condimentum
+              leo. Maecenas dictum felis, massa quam tellus. Fermentum tincidunt
+              eu vitae nulla amet. Nec auctor lorem dictum consequat. Iaculis a
+              luctus facilisis viverra pulvinar diam. Porttitor nisl pretium
+              morbi id. Amet quis a quam ipsum eu faucibus aliquet aliquet.
+              Lacus, ultricies vel, ut quis imperdiet integer pharetra. Diam
+              accumsan, tincidunt quis eu nibh ultrices. Habitant id ultricies
+              volutpat mauris neque, gravida semper. Aenean blandit vitae, felis
+              sapien.
+            </div>
+          </div>
+        </div>
+
+        <div
+          x-data="{
+                                                        id: 3,
+                                                        get expanded() {
+                                                            return this.active === this.id
+                                                        },
+                                                        set expanded(value) {
+                                                            this.active = value ? this.id : null
+                                                        },
+                                                    }"
+          role="region"
+        >
+          <h3>
+            <button
+              @click="expanded = !expanded"
+              :aria-expanded="expanded"
+              class="xb jd kc jf kf tf gf ik bg"
+              aria-expanded="false"
+            >
+              <span
+                x-show="expanded"
+                aria-hidden="true"
+                class="vb"
+                style="display: none"
+              >
+                <svg
+                  class="lc dc bg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M8.1207 9.29006L12.0007 13.1701L15.8807 9.29006C16.2707 8.90006 16.9007 8.90006 17.2907 9.29006C17.6807 9.68006 17.6807 10.3101 17.2907 10.7001L12.7007 15.2901C12.3107 15.6801 11.6807 15.6801 11.2907 15.2901L6.7007 10.7001C6.3107 10.3101 6.3107 9.68006 6.7007 9.29006C7.0907 8.91006 7.7307 8.90006 8.1207 9.29006Z"
+                  ></path>
+                </svg>
+              </span>
+
+              <span x-show="!expanded" aria-hidden="true" class="vb">
+                <svg
+                  class="lc dc bg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M9.71141 17.3C10.1014 17.69 10.7314 17.69 11.1214 17.3L15.7114 12.71C16.1014 12.32 16.1014 11.69 15.7114 11.3L11.1214 6.71003C10.7314 6.32003 10.1014 6.32003 9.71141 6.71003C9.32141 7.10003 9.32141 7.73003 9.71141 8.12003L13.5914 12.01L9.71141 15.89C9.32141 16.28 9.33141 16.92 9.71141 17.3Z"
+                  ></path>
+                </svg>
+              </span>
+
+              <span>
+                Cras quis nulla commodo, aliquam lectus sed, blandit augue?
+              </span>
+            </button>
+          </h3>
+
+          <div
+            x-show="expanded"
+            x-collapse=""
+            style="display: none; height: 0px; overflow: hidden"
+            hidden=""
+          >
+            <div class="ib if nf sf eg bg">
+              Nam ultricies leo cursus gravida lacus. Aliquet eget quam nisi
+              duis dui justo eleifend. Suspendisse odio id ultrices elementum ut
+              eget ullamcorper. Vel eu odio mattis amet, ornare fermentum.
+              Fermentum at curabitur ultricies eget tortor in quis condimentum
+              leo. Maecenas dictum felis, massa quam tellus. Fermentum tincidunt
+              eu vitae nulla amet. Nec auctor lorem dictum consequat. Iaculis a
+              luctus facilisis viverra pulvinar diam. Porttitor nisl pretium
+              morbi id. Amet quis a quam ipsum eu faucibus aliquet aliquet.
+              Lacus, ultricies vel, ut quis imperdiet integer pharetra. Diam
+              accumsan, tincidunt quis eu nibh ultrices. Habitant id ultricies
+              volutpat mauris neque, gravida semper. Aenean blandit vitae, felis
+              sapien.
+            </div>
+          </div>
+        </div>
+
+        <div
+          x-data="{
+                                                        id: 4,
+                                                        get expanded() {
+                                                            return this.active === this.id
+                                                        },
+                                                        set expanded(value) {
+                                                            this.active = value ? this.id : null
+                                                        },
+                                                    }"
+          role="region"
+        >
+          <h3>
+            <button
+              @click="expanded = !expanded"
+              :aria-expanded="expanded"
+              class="xb jd kc jf kf tf gf ik bg"
+              aria-expanded="false"
+            >
+              <span
+                x-show="expanded"
+                aria-hidden="true"
+                class="vb"
+                style="display: none"
+              >
+                <svg
+                  class="lc dc bg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M8.1207 9.29006L12.0007 13.1701L15.8807 9.29006C16.2707 8.90006 16.9007 8.90006 17.2907 9.29006C17.6807 9.68006 17.6807 10.3101 17.2907 10.7001L12.7007 15.2901C12.3107 15.6801 11.6807 15.6801 11.2907 15.2901L6.7007 10.7001C6.3107 10.3101 6.3107 9.68006 6.7007 9.29006C7.0907 8.91006 7.7307 8.90006 8.1207 9.29006Z"
+                  ></path>
+                </svg>
+              </span>
+
+              <span x-show="!expanded" aria-hidden="true" class="vb">
+                <svg
+                  class="lc dc bg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M9.71141 17.3C10.1014 17.69 10.7314 17.69 11.1214 17.3L15.7114 12.71C16.1014 12.32 16.1014 11.69 15.7114 11.3L11.1214 6.71003C10.7314 6.32003 10.1014 6.32003 9.71141 6.71003C9.32141 7.10003 9.32141 7.73003 9.71141 8.12003L13.5914 12.01L9.71141 15.89C9.32141 16.28 9.33141 16.92 9.71141 17.3Z"
+                  ></path>
+                </svg>
+              </span>
+
+              <span>
+                Cras quis nulla commodo, aliquam lectus sed, blandit augue?
+              </span>
+            </button>
+          </h3>
+
+          <div
+            x-show="expanded"
+            x-collapse=""
+            style="display: none; height: 0px; overflow: hidden"
+            hidden=""
+          >
+            <div class="ib if nf sf eg bg">
+              Nam ultricies leo cursus gravida lacus. Aliquet eget quam nisi
+              duis dui justo eleifend. Suspendisse odio id ultrices elementum ut
+              eget ullamcorper. Vel eu odio mattis amet, ornare fermentum.
+              Fermentum at curabitur ultricies eget tortor in quis condimentum
+              leo. Maecenas dictum felis, massa quam tellus. Fermentum tincidunt
+              eu vitae nulla amet. Nec auctor lorem dictum consequat. Iaculis a
+              luctus facilisis viverra pulvinar diam. Porttitor nisl pretium
+              morbi id. Amet quis a quam ipsum eu faucibus aliquet aliquet.
+              Lacus, ultricies vel, ut quis imperdiet integer pharetra. Diam
+              accumsan, tincidunt quis eu nibh ultrices. Habitant id ultricies
+              volutpat mauris neque, gravida semper. Aenean blandit vitae, felis
+              sapien.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

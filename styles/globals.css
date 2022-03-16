@@ -6,6 +6,10 @@ html {
   font-family: "Inter", sans-serif;
 }
 
+.font-space {
+  font-family: "JetBrains Mono", monospace;
+}
+
 .gradient {
   background: linear-gradient(
     90deg,

@@ -1,0 +1,140 @@
+<header class="y u" x-data="{expanded: false}">
+  <div class="a z c ac lc">
+    <div class="d l n">
+      <div class="k">
+        <a href="#" title="" class="d">
+          <img
+            class=""
+            src="https://cdn.rareblocks.xyz/collection/clarity/images/logo.svg"
+            alt=""
+          />
+        </a>
+      </div>
+
+      <div class="d ec">
+        <button
+          type="button"
+          class="kb"
+          @click="expanded = !expanded"
+          :aria-expanded="expanded"
+          aria-expanded="false"
+        >
+          <span x-show="!expanded" aria-hidden="true">
+            <svg
+              class="i h"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+                d="M4 6h16M4 12h16M4 18h16"
+              ></path>
+            </svg>
+          </span>
+
+          <span x-show="expanded" aria-hidden="true" style="display: none">
+            <svg
+              class="i h"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M6 18L18 6M6 6l12 12"
+              ></path>
+            </svg>
+          </span>
+        </button>
+      </div>
+
+      <nav class="g fc bc cc ic dc">
+        <a href="#" title="" class="fb gb kb mb nb p vb font-pj sb wb yb zb">
+          Features
+        </a>
+
+        <a href="#" title="" class="fb gb kb mb nb p vb font-pj sb wb yb zb">
+          Pricing
+        </a>
+
+        <a href="#" title="" class="fb gb kb mb nb p vb font-pj sb wb yb zb">
+          Automation
+        </a>
+      </nav>
+
+      <nav class="g dc fc gc jc">
+        <a href="#" title="" class="fb gb kb mb nb p vb font-pj sb wb yb zb">
+          Customer Login
+        </a>
+
+        <a
+          href="#"
+          title=""
+          class="e l m ab bb fb hb jb lb mb nb v r s q ob font-pj vb xb zb yb"
+          role="button"
+        >
+          Sign up
+        </a>
+      </nav>
+    </div>
+
+    <nav
+      x-show="expanded"
+      x-collapse=""
+      style="display: none; height: 0px; overflow: hidden"
+      hidden=""
+    >
+      <div class="cb db">
+        <div class="f o">
+          <a
+            href="#"
+            title=""
+            class="d l x b fb gb kb mb nb q pb vb font-pj wb yb zb"
+          >
+            Features
+          </a>
+
+          <a
+            href="#"
+            title=""
+            class="d l x b fb gb kb mb nb q pb vb font-pj wb yb zb"
+          >
+            Pricing
+          </a>
+
+          <a
+            href="#"
+            title=""
+            class="d l x b fb gb kb mb nb q pb vb font-pj wb yb zb"
+          >
+            Automation
+          </a>
+
+          <a
+            href="#"
+            title=""
+            class="d l x b fb gb kb mb nb q pb vb font-pj wb yb zb"
+          >
+            Customer Login
+          </a>
+
+          <a
+            href="#"
+            title=""
+            class="e l m ab bb fb hb jb lb mb nb v r s q ob font-pj vb xb zb yb"
+            role="button"
+          >
+            Sign up
+          </a>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>

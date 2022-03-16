@@ -1,0 +1,315 @@
+<section class="vg eg ml ap">
+  <div class="wg jb td nl bp">
+    <div class="qh">
+      <h2 class="rh bi ki am nq font-pj">Frequently Asked Questions</h2>
+      <p class="ud jb qb uh mi font-pj">
+        With lots of unique blocks, you can easily build a page without coding.
+        Build your next landing page.
+      </p>
+    </div>
+
+    <div class="zd jb lb wk">
+      <div x-data="{ active: 1 }" class="kf">
+        <div class="u">
+          <div class="t ab">
+            <div
+              class="gd qc jb vi ej fj"
+              style="
+                background: linear-gradient(
+                  90deg,
+                  #44ff9a -0.55%,
+                  #44b0ff 22.86%,
+                  #8b44ff 48.36%,
+                  #ff6644 73.33%,
+                  #ebff70 99.34%
+                );
+              "
+            ></div>
+          </div>
+
+          <div
+            x-data="{
+                          id: 1,
+                          get expanded() {
+                              return this.active === this.id
+                          },
+                          set expanded(value) {
+                              this.active = value ? this.id : null
+                          },
+                      }"
+            role="region"
+            class="u nf eg uf ag sf"
+          >
+            <h3>
+              <button
+                @click="expanded = !expanded"
+                :aria-expanded="expanded"
+                class="jc me qe gd bh jh sh bi ph ki ll font-pj"
+                aria-expanded="true"
+              >
+                <span>
+                  How this UI Kit is different from others in market?
+                </span>
+                <span x-show="expanded" aria-hidden="true" class="gc">
+                  <svg
+                    class="od bd ki"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M20 12H4"
+                    ></path>
+                  </svg>
+                </span>
+                <span
+                  x-show="!expanded"
+                  aria-hidden="true"
+                  class="gc"
+                  style="display: none"
+                >
+                  <svg
+                    class="od bd ki"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M12 4v16m8-8H4"
+                    ></path>
+                  </svg>
+                </span>
+              </button>
+            </h3>
+
+            <div x-show="expanded" x-collapse="">
+              <div class="bh oh vl xl">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt nostrud amet.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          x-data="{
+                          id: 2,
+                          get expanded() {
+                              return this.active === this.id
+                          },
+                          set expanded(value) {
+                              this.active = value ? this.id : null
+                          },
+                      }"
+          role="region"
+          class="nf eg uf ag sf"
+        >
+          <h3>
+            <button
+              @click="expanded = !expanded"
+              :aria-expanded="expanded"
+              class="jc me qe gd bh jh sh bi ph ki ll font-pj"
+              aria-expanded="false"
+            >
+              <span> How long do you provide support? </span>
+              <span
+                x-show="expanded"
+                aria-hidden="true"
+                class="gc"
+                style="display: none"
+              >
+                <svg
+                  class="od bd ki"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M20 12H4"
+                  ></path>
+                </svg>
+              </span>
+              <span x-show="!expanded" aria-hidden="true" class="gc">
+                <svg
+                  class="od bd ki"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M12 4v16m8-8H4"
+                  ></path>
+                </svg>
+              </span>
+            </button>
+          </h3>
+
+          <div x-show="expanded" x-collapse="" style="display: none">
+            <div class="bh oh vl xl">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+              Exercitation veniam consequat sunt nostrud amet.
+            </div>
+          </div>
+        </div>
+
+        <div
+          x-data="{
+                                        id: 3,
+                                        get expanded() {
+                                            return this.active === this.id
+                                        },
+                                        set expanded(value) {
+                                            this.active = value ? this.id : null
+                                        },
+                                    }"
+          role="region"
+          class="nf eg uf ag sf"
+        >
+          <h3>
+            <button
+              @click="expanded = !expanded"
+              :aria-expanded="expanded"
+              class="jc me qe gd bh jh sh bi ph ki ll font-pj"
+              aria-expanded="false"
+            >
+              <span> Do I need any experience to work with Rareblocks? </span>
+              <span
+                x-show="expanded"
+                aria-hidden="true"
+                class="gc"
+                style="display: none"
+              >
+                <svg
+                  class="od bd ki"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M20 12H4"
+                  ></path>
+                </svg>
+              </span>
+              <span x-show="!expanded" aria-hidden="true" class="gc">
+                <svg
+                  class="od bd ki"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M12 4v16m8-8H4"
+                  ></path>
+                </svg>
+              </span>
+            </button>
+          </h3>
+
+          <div x-show="expanded" x-collapse="" style="display: none">
+            <div class="bh oh vl xl">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+              Exercitation veniam consequat sunt nostrud amet.
+            </div>
+          </div>
+        </div>
+
+        <div
+          x-data="{
+                                          id: 4,
+                                          get expanded() {
+                                              return this.active === this.id
+                                          },
+                                          set expanded(value) {
+                                              this.active = value ? this.id : null
+                                          },
+                                      }"
+          role="region"
+          class="nf eg uf ag sf"
+        >
+          <h3>
+            <button
+              @click="expanded = !expanded"
+              :aria-expanded="expanded"
+              class="jc me qe gd bh jh sh bi ph ki ll font-pj"
+              aria-expanded="false"
+            >
+              <span> What kind of files are included? </span>
+              <span
+                x-show="expanded"
+                aria-hidden="true"
+                class="gc"
+                style="display: none"
+              >
+                <svg
+                  class="od bd ki"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M20 12H4"
+                  ></path>
+                </svg>
+              </span>
+              <span x-show="!expanded" aria-hidden="true" class="gc">
+                <svg
+                  class="od bd ki"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M12 4v16m8-8H4"
+                  ></path>
+                </svg>
+              </span>
+            </button>
+          </h3>
+
+          <div x-show="expanded" x-collapse="" style="display: none">
+            <div class="bh oh vl xl">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+              Exercitation veniam consequat sunt nostrud amet.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
